@@ -1,0 +1,43 @@
+#pane{
+    -fx-background-image: url("Board.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 700 700;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+
+#pane2{
+    -fx-background-image: url("Lobby.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 1000 700;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+
+}
+
+#title{
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 50px;
+    -fx-text-inner-color: "gold";
+    -fx-text-box-border: "black";
+    -fx-background-radius: 40px, 40px;
+    -fx-control-inner-background: "lightgray";
+
+}
+
+#title .text{
+    -fx-stroke: "black";
+    -fx-stroke-width: 3px;
+}
+
+.label {
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 15px;
+    -fx-border-color: "black";
+    -fx-background-color: "lightgray";
+}
+
+#infoLabel {
+    -fx-font-size: 30px;
+}
+
